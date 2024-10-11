@@ -1,0 +1,29 @@
+.cardContainerStyle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.cardStyle {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imageStyle {
+    width: auto;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 4px;
+
+}
+
+.errorStyle {
+    color: red;
+    text-align: center;
+}
